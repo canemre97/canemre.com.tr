@@ -1,6 +1,6 @@
 @charset
 "utf-8";html{overflow-x:hidden;padding:0;margin:0}body{font-family:mulish;font-size:15px;line-height:30px;letter-spacing:0;word-wrap:break-word;font-weight:400;background-color:#0d1117;color:#fff}body::-webkit-scrollbar{width:0}svg{fill:currentcolor;width:15px;height:15px}img.svg{width:15px;height:15px}::-webkit-input-placeholder{color:#6f6f6f}:-moz-placeholder{color:#6f6f6f;opacity:1}::-moz-placeholder{color:#6f6f6f;opacity:1}:-ms-input-placeholder{color:#6f6f6f}::-ms-input-placeholder{color:#6f6f6f}::placeholder{color:#6f6f6f}.container{max-width:1070px;width:100%;margin-left:auto;margin-right:auto;height:auto;padding:0;position:relative;clear:both}h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.4;font-family:montserrat;color:#000}h1{font-size:45px}h2{font-size:36px}h3{font-size:30px}h4{font-size:24px}h5{font-size:20px}h6{font-size:16px}a{text-decoration:none}.tokyo_tm_all_wrap{width:100%;height:auto;clear:both;float:left;position:relative}.tokyo_tm_all_wrap,.tokyo_tm_all_wrap
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#preloader{position:fixed;left:0;top:0;height:100vh;width:100%;z-index:99999;display:flex}#preloader:before,#preloader:after{content:'';position:absolute;left:0;top:0;width:50%;height:100%;z-index:-1;background-color:#000;-webkit-transition:all
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#preloader{position:fixed;left:0;top:0;height:100vh;width:100%;z-index:99999;display:flex}#preloader:before,#preloader:after{content:'';position:absolute;left:0;top:0;width:50%;height:100%;z-index:-1;background-color:#0d1117;-webkit-transition:all
 .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s}#preloader:after{left:auto;right:0}#preloader
 .loader_line{margin:auto;width:1px;height:250px;position:relative;overflow:hidden;-webkit-transition:all .8s ease
 0s;-o-transition:all .8s ease 0s;transition:all .8s ease
@@ -407,3 +407,4 @@ ul li{width:100%;padding-left:0}.tokyo_tm_pricing .list>ul{margin:0}.tokyo_tm_pr
 i.fa-brands,i.fa-solid{color:white !important;}
 .job{text-align:center}
 h3.name,.job{user-select:none}
+@media(min-width:1041px) {ul{margin-left: 8px !important}}
